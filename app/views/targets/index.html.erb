@@ -1,0 +1,9 @@
+<% @targets.each do |target| %>
+  <li>
+    <%= link_to target.target_count, target_path(target) %>
+    <%= link_to 'delete', target_path(target), :method => :delete %>
+  </li>
+<% end %>
+</ul>
+ 
+<%= link_to 'new target', new_target_path %>

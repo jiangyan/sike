@@ -1,0 +1,204 @@
+/*========================================================
+    File:        common.css
+    Description: Common CSS Style for All Pages
+========================================================*/
+
+/* + Common CSS - Begin */
+
+/* + Tab Selector */
+body
+{
+    font: 400 12px/1.2em 'Î¢ÈíÑÅºÚ','Microsoft Yahei',Arial;
+}
+p, span, strong, h1, h2, h3
+{
+    line-height: 1.2em;
+}
+a
+{
+    text-decoration: none;
+}
+/* + Common classes */
+    /* - Over write base CSS */
+    .gry,
+    .gry a,
+    .gry a:hover,
+    a.gry:hover         {   color: #b5b5b5;    }
+    .azure,
+    .azure a,
+    .azure a:hover,
+    a.azure:hover       {   color: #16c4f3;    }
+    
+    /* - Form */
+    .formbox
+    {
+    }
+    .fb-title
+    {
+        display: block;
+        width: 100%;
+        padding: 0 0 5px;
+        border-bottom: 3px double #16c4f3;
+    }
+    .fb-firstel
+    {
+        display: inline-block;
+    }
+    .fb-input
+    {
+        border: 1px solid #16c4f3;
+        line-height: 1.7em;
+        height: 1.7em;
+        min-width: 210px;
+        padding: 0 3px;
+    }
+    .fb-chkbox
+    {
+    }
+    .fb-tip
+    {
+        line-height: 1.7em;
+        height: 1.7em;
+        margin: 1px 0 0 15px;
+        padding: 0 10px;
+        background-color: #16c4f3;
+    }
+    .icon-formerr
+    {
+        width: 6px;
+        height: 7px;
+        left: -6px;
+        top: 6px;
+        background: url(../images/high/icon_formerr.png) left top no-repeat;
+    }
+    
+    /* - Common */
+    .outerglow:hover,
+    .outerglow:focus
+    {
+        -moz-box-shadow: 0 0 5px #3cf;
+        -webkit-box-shadow: 0 0 5px #3cf;
+        box-shadow: 0 0 5px #3cf;
+    }
+    
+    /* - Buttons */
+    .btn-start
+    {
+        color: #fff;
+        line-height: 2em;
+        border: 1px solid #16c4f3;
+        padding: 0 7px;
+        display: inline-block;
+        *display: inline;
+        *zoom: 1;
+        cursor: pointer;
+        -moz-border-radius: 3px;
+        -webkit-border-radius: 3px;
+        border-radius: 3px;
+        background-color: #35caf3;
+        /* Firefox 3.6+ */
+        background: -moz-linear-gradient(100% 100% 90deg, #1cc5f3, #97dbf3); 
+        /* Safari 4-5, Chrome 1-9 */
+        /* -webkit-gradient(<type>, <point> [, <radius>]?, <point> [, <radius>]? [, <stop>]*) */
+        background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#97dbf3), to(#1cc5f3)); 
+        /* Safari 5.1+, Chrome 10+ */
+        background: -webkit-linear-gradient(#97dbf3, #1cc5f3); 
+        /* Opera 11.10+ */
+        background: -o-linear-gradient(#97dbf3, #1cc5f3);
+    }
+    
+    /* - Icons */
+    .icon-go
+    {
+        width: 14px;
+        height: 15px;
+        display: inline-block;
+        *display: inline;
+        vertical-align: text-top;
+        background: url(../images/high/icon_go.png) left bottom no-repeat;
+    }
+    .bookmark
+    {
+        width: 16px;
+        height: 16px;
+        display: inline-block;
+        *display: inline;
+        vertical-align: text-top;
+    }
+    .bkmk-sina
+    {
+        background: url(../images/high/bkmk_sina_dis.png) left top no-repeat;
+    }
+    .bkmk-sina:hover
+    {
+        background: url(../images/high/bkmk_sina.png) left top no-repeat;
+    }
+
+    /* - For zhuomi website */
+        /* - Page title */
+        .pg-title
+        {
+            padding: 14px 0 5px;
+            border-bottom: 1px dotted #16c4f3;
+        }
+        .pg-title-welcome
+        {
+            color: #b5b5b5;
+            margin-top: -4px;
+        }
+        /* - Profile View */
+        .pv-headshot
+        {
+            width: 98px;
+            height: 98px;
+            display: block;
+            background-color: #eaeaea;
+            border: 1px solid #cacaca;
+            color: #aaa;
+            text-align: center;
+        }
+        .pv-headshot img
+        {
+            width: 98px;
+            height: 98px;
+            display: block;
+        }
+        /* - Account box */
+        #accountbox
+        {
+            background-color: #059ec7;
+            padding: 3px 8px 3px 5px;
+        }
+        .ab-profile
+        {
+            padding-right: 8px;
+            border-right: 1px solid #16c4f3;
+        }
+        .ab-headshot
+        {
+            width: 21px;
+            height: 21px;
+            line-height: 0;
+        }
+        .ab-headshot img
+        {
+            width: 21px;
+            height: 21px;
+            display: inline-block;
+        }
+        .ab-name
+        {
+            color: #fff;
+            line-height: 21px;
+            display: inline-block;
+            *display: block;
+        }
+        .ab-drop
+        {
+            width: 14px;
+            height: 21px;
+            display: block;
+            background: url(../images/high/icon_dropdown.png) left center no-repeat;
+        }
+
+/* + Common CSS - End */

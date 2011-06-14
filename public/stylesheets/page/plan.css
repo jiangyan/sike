@@ -1,0 +1,67 @@
+/*========================================================
+    File:        plan.css
+    Description: CSS Styles for plan page
+========================================================*/
+
+/* + Plan CSS - Begin */
+
+    /* - Plan Hour Box */
+    .ph-one,
+    .ph-ten,
+    .ph-hdrd
+    {
+        display: inline-block;
+        padding-bottom: 2px;
+        margin-left: 5px;
+        border-bottom: 4px solid #fff;
+        cursor: pointer;
+    }
+    .ph-one
+    {
+        margin-left: 0;
+    }
+    .ph-one:hover,
+    .ph-one.active
+    {
+        border-bottom: 4px solid #fdc51a;
+    }
+    .ph-ten:hover,
+    .ph-ten.active
+    {
+        border-bottom: 4px solid #f3a216;
+    }
+    .ph-hdrd:hover,
+    .ph-hdrd.active
+    {
+        border-bottom: 4px solid #f37916;
+    }
+    .ph-txt
+    {
+        color: #fff;
+        font-size: 330%;
+        display: inline-block;
+        padding: 0 8px;
+        -moz-border-radius: 6px;
+        -webkit-border-radius: 6px;
+        border-radius: 6px;
+        line-height: 1.2em;
+    }
+    .ph-one .ph-txt
+    {
+        background-color: #fdc51a;
+    }
+    .ph-ten .ph-txt
+    {
+        background-color: #f3a216;
+    }
+    .ph-hdrd .ph-txt
+    {
+        background-color: #f37916;
+    }
+    .ph-unit
+    {
+        font-size: 50%;
+        margin-left: 8px;
+    }
+    
+/* + Plan CSS - End */

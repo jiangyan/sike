@@ -1,0 +1,96 @@
+/*========================================================
+    File:        frame.css
+    Description: Page frame CSS Styles
+========================================================*/
+
+/* + Frame CSS - Begin */
+
+/* Page Width */
+.pw
+{
+    width: 80em;
+}
+
+    /* + Header */
+    #header
+    {
+        padding: 13px 0;
+        background-color: #16c4f3;
+    }
+        /* - Logo */
+        #logo,
+        #logo img 
+        {
+            color: #fff;
+            width: 51px;
+            height: 27px;
+            display: block;
+        }
+    
+    /* + Shoulder */
+    .shoulder
+    {
+        height: 9px;
+        background-color: #eff1f2;
+        border-top: 3px solid #fff;
+        border-bottom: 1px solid #cbcbcb;
+    }
+
+    /* Wrapper */
+    #wrapper
+    {
+        padding-bottom: 50px;
+    }
+    #banner
+    {
+        min-height: 150px;
+    }
+
+    /* + Footer */
+    #footer
+    {
+        color: #aeaeae;
+        margin-top: 10px;
+        padding: 6px 0 10px;
+        border-top: 1px dotted #16c4f3;
+    }
+    #footer p
+    {
+        line-height: 16px;
+    }
+    .au-links
+    {
+        width: 0;
+        height: 1.4em;
+        overflow: hidden;
+    }
+    .au-links li
+    {
+        margin-left: 10px;
+    }
+    .au-links li a
+    {
+        line-height: 1.4em;
+        color: #aeaeae;
+    }
+    .au-links li a:hover
+    {
+        text-decoration: underline;
+    }
+    #au-prev,
+    #au-next
+    {
+        width: 5px;
+        height: 16px;
+        float: left;
+    }
+    #au-prev
+    {
+        background: url(../_imgs/high/icon_prev.png) right center no-repeat;
+    }
+    #au-next
+    {
+        margin-left: 2px;
+        background: url(../_imgs/high/icon_next.png) left center no-repeat;
+    }
+/* + Frame CSS - End */

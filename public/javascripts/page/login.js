@@ -1,0 +1,23 @@
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+//
+// File:            login.js
+// Defines:
+// Dependencies:
+// Description:     this is the document ready functions for login page
+//
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+// Document Ready.
+jQuery(function($) {
+
+
+});
+
+// Window Onload.
+ZM.windowOnload = window.onload;
+window.onload = function() {
+    if (ZM.windowOnload) {
+        ZM.windowOnload();
+    }
+    // Your code here
+};
