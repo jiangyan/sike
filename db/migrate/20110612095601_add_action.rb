@@ -12,6 +12,6 @@ class AddAction < ActiveRecord::Migration
   end
 
   def self.down
-    drop_table :sike_actions
+    drop_table :actions
   end
 end

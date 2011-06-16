@@ -8,6 +8,6 @@ class AddCategray < ActiveRecord::Migration
   end
 
   def self.down
-    drop_table :sike_categories
+    drop_table :categories
   end
 end

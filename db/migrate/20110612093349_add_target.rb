@@ -13,6 +13,6 @@ class AddTarget < ActiveRecord::Migration
   end
 
   def self.down
-    drop_table :sike_targets
+    drop_table :targets
   end
 end

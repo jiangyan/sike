@@ -10,6 +10,6 @@ class CreateSikeUsers < ActiveRecord::Migration
   end
 
   def self.down
-    drop_table :sike_users
+    drop_table :users
   end
 end
